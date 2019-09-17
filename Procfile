@@ -1,0 +1,1 @@
+web: gunicorn Proyecto_RNP_2019_FN.wsgi --log-file -
