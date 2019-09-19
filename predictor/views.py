@@ -97,7 +97,7 @@ def torta(request):
     return render(request, 'predictor/graf_torta.html')
 
 def barras(request):
-    return render(request, 'predictor/graf_barras.html')
+    return render(request, 'predictor/Graf_Barras.html')
 
 def linea(request):
     return render(request, 'predictor/graf_area.html')
