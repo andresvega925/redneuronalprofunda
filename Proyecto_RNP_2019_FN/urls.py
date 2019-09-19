@@ -20,6 +20,7 @@ from predictor import views
 
 urlpatterns = [
     #path('admin/', admin.site.urls),
+    path('', views.predictor, name="predictor"),
     path('predictor/', views.predictor, name="predictor"),
     path('rtaPrediccion/', views.rtaPrediccion, name="prediccion"),
     path('dashboard/', views.barras, name="barras"),

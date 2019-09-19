@@ -18,7 +18,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '76(ly7bf_tcbpsn31_kq5%rj+v4)8x=mqqh!s$2$-vjnbm-2zi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -126,8 +126,11 @@ STATIC_ROOT = os.path.join(BASE_DIR ,'static')
 def cargarModelo():
     K.clear_session()
     # cargar json y crear el modelo
-    js = "C:\\Users\\AndresFelipeVegaBelt\\Documents\\MEGA\\MEGAsync\\Documentos Informe\\Algoritmos\\Modelos\\Modelo 7\\ModeloCon_13_Entradas_Num_7.json"
-    h5 = "C:\\Users\\AndresFelipeVegaBelt\\Documents\\MEGA\\MEGAsync\\Documentos Informe\\Algoritmos\\Modelos\\Modelo 7\\ModeloCon_13_Entradas_Num_7.h5"
+    #js = "C:\\Users\\AndresFelipeVegaBelt\\Documents\\MEGA\\MEGAsync\\Documentos Informe\\Algoritmos\\Modelos\\Modelo 7\\ModeloCon_13_Entradas_Num_7.json"
+    #h5 = "C:\\Users\\AndresFelipeVegaBelt\\Documents\\MEGA\\MEGAsync\\Documentos Informe\\Algoritmos\\Modelos\\Modelo 7\\ModeloCon_13_Entradas_Num_7.h5"
+
+    js = "predictor/static/predictor/modeloRNP/ModeloCon_13_Entradas_Num_7.json"
+    h5 = "predictor/static/predictor/modeloRNP/ModeloCon_13_Entradas_Num_7.h5"
 
     json_file = open(js, 'r')
     loaded_model_json = json_file.read()
