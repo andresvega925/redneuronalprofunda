@@ -40,17 +40,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/predictor/static/predictor/modeloRNP" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\AndresFelipeVegaBelt\Documents\MEGA\MEGAsync\Proyecto_RNP_2019_FN\predictor\static\dist\css" />
-      <recent name="C:\Users\AndresFelipeVegaBelt\Documents\MEGA\MEGAsync\Proyecto_RNP_2019_FN\predictor" />
-      <recent name="C:\Users\AndresFelipeVegaBelt\Documents\MEGA\MEGAsync\Proyecto_RNP_2019_FN" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\AndresFelipeVegaBelt\Documents\MEGA\MEGAsync\Proyecto_RNP_2019_FN\predictor\static\predictor\modeloRNP" />
       <recent name="C:\Users\AndresFelipeVegaBelt\Documents\MEGA\MEGAsync\Proyecto_RNP_2019_FN\predictor\static\dist\img" />
       <recent name="C:\Users\AndresFelipeVegaBelt\Documents\MEGA\MEGAsync\Proyecto_RNP_2019_FN\predictor\static\chartjs" />
       <recent name="C:\Users\AndresFelipeVegaBelt\Documents\MEGA\MEGAsync\Proyecto_RNP_2019_FN\predictor\templates\predictor" />
       <recent name="C:\Users\AndresFelipeVegaBelt\Documents\MEGA\MEGAsync\Proyecto_RNP_2019_FN\predictor\static\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\AndresFelipeVegaBelt\Documents\MEGA\MEGAsync\Proyecto_RNP_2019_FN\predictor\static\dist\css" />
+      <recent name="C:\Users\AndresFelipeVegaBelt\Documents\MEGA\MEGAsync\Proyecto_RNP_2019_FN\predictor" />
+      <recent name="C:\Users\AndresFelipeVegaBelt\Documents\MEGA\MEGAsync\Proyecto_RNP_2019_FN" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -113,7 +113,8 @@
       <workItem from="1568672817034" duration="45000" />
       <workItem from="1568735383254" duration="3807000" />
       <workItem from="1568861818451" duration="2108000" />
-      <workItem from="1568911809959" duration="1418000" />
+      <workItem from="1568911809959" duration="2328000" />
+      <workItem from="1568922058021" duration="515000" />
     </task>
     <servers />
   </component>
