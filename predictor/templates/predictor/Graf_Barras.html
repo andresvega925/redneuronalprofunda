@@ -191,7 +191,7 @@ var densityCanvas = document.getElementById("totalEstudiantesPorGenero");
 
 
 Chart.defaults.global.defaultFontFamily = "Lato";
-Chart.defaults.global.defaultFontSize = 14;
+Chart.defaults.global.defaultFontSize = 18;
 
 var hombres = {
     label: 'Hombres',
@@ -221,7 +221,7 @@ var barChart = new Chart(densityCanvas, {
 var densityCanvas = document.getElementById("desertorestotalesPorGeneroVsTotalEstudianteMatriculadosPorGenero");
 
 Chart.defaults.global.defaultFontFamily = "Lato";
-Chart.defaults.global.defaultFontSize = 8;
+Chart.defaults.global.defaultFontSize = 18;
 
 var densityData = {
   label: 'Mujeres',
@@ -240,7 +240,7 @@ var gravityData = {
 };
 
 var planetData = {
-  labels: ["Mujeres", "Hombres"],
+  labels: ["Matriculados", "Desertores"],
   datasets: [densityData, gravityData]
 };
 
@@ -325,7 +325,7 @@ Chart.defaults.global.defaultFontSize = 18;
 
 var densityData = {
   label: 'Número de estudiantes',
-  data: [1889, 593, 152, 1565],
+  data: [569, 186, 40, 484],
   backgroundColor: [
     'rgba(0, 99, 132, 0.6)',
     'rgba(30, 99, 132, 0.6)',
@@ -364,6 +364,9 @@ var barChart = new Chart(densityCanvas, {
   options: chartOptions
 });
 </script>
+
+
+
 <!-- estudiantesyDesertoresPorCiudadOrigen -->
 <script>
 var densityCanvas = document.getElementById("estudiantesyDesertoresPorCiudadOrigen");
